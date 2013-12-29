@@ -104,7 +104,7 @@
 				<span> Copyrigth </span>
 			</div>
 			<div>
-				<div id="pie-derecho">
+				<div id="pie-derecho" style="border-color:red;">
 					<span onclick="parent.location='index.html';">Inicio</span>
 					<span onclick="parent.location='presentacion.html';">Presentación</span>
 					<span onclick="parent.location='boceto.html';">Boceto</span>

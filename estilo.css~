@@ -149,11 +149,13 @@ html,body{margin: 0; padding: 0;height: 100%;}
 			#pie-derecho{
 				width:105px;
 				text-align: left;
-				padding-left: 10px;
+				padding-left: 5px;
 				margin:auto; 	
+				border-left: 2px solid gray;
 			}
 			#pie-derecho > span{
 				font-family: verdana;
+				font-size: 14px;
 				color: gray;
 				cursor: pointer;			
 			}
