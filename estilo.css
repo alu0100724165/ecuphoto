@@ -170,9 +170,9 @@ html,body{margin: 0; padding: 0;height: 100%;}
 			}
 		
 			#pie-izquierdo > div{ 
-				width:205px;
+				width:170px;
 				margin: auto;
-				text-align: left;
+				text-align: center;
 				color: #418CC5;
 				font-size: 13px;
 			}
