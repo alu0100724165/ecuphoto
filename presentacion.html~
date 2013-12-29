@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='icono_movil.jpg' rel='shortcut icon' type='image/jpg'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+		<title>Ecuphoto</title>
+		<link rel="stylesheet" href="estilo.css" />
+	</head>
+	<body>
+		<div id="encabezado">
+			<div>			
+				<div id="ecuphoto">
+						<span>ecuPhoto</span>
+				</div>			
+				<div id="imagen-enc">
+					<div>
+						<img src="HTC-One-camara.png" alt="">
+					</div>
+				</div>
+				<div id="frase">
+					<span>Una nueva forma de calcular</span>
+				</div>
+			</div>
+		</div>
+		<div class="barra">
+		<div>
+			<div>
+				<span onclick="parent.location='index.html';" class="seleccion btn">|Inicio</span>
+				<span onclick="parent.location='presentacion.html';" class="btn" >|Presentación</span>
+				<span onclick="parent.location='boceto.html';" class="btn" >|Boceto</span>
+			</div>
+		</div>
+		</div>
+		<div id="cuerpo">
+			
+		</div>
+		<div id="pie">
+			<div id="pie-izquierdo">
+				<span>Contactos:</span>
+				<div>
+					<span>Leandro Ponte Brunengo</span>
+					<span>Ayoze Pacheco Herrera</span>
+					<span>Abraham Barreto Luis</span>
+				</div>
+			</div>
+			<div id="pie-centro">			
+				<span> Copyrigth </span>
+			</div>
+			<div>
+				<div id="pie-derecho">
+					<span onclick="parent.location='index.html';">Inicio</span>
+					<span onclick="parent.location='presentacion.html';">Presentación</span>
+					<span onclick="parent.location='boceto.html';">Boceto</span>
+				</div>			
+			</div>
+		</div>
+	</body>	
+</html>

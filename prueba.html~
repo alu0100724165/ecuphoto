@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+		<title>Ecuphoto</title>
+		<style type="text/css">
+			.encabezado{
+				background-color:#8AB5F0;
+				margin: auto;
+				width: 50%;
+				height: 100px;
+				text-align: left;
+				padding-right: 0;
+			}
+			
+			.barra{
+				background-color:#31565D;
+				margin: auto;
+				width: 50%;
+				height: 30px;
+			}
+			
+			.cuerpo{
+				background-color:#E5E5E5;
+				margin: auto;
+				width: 50%;
+				height: 540px;
+			}
+			
+			#btn_inicio{
+				width: 25%;
+				float: left;
+				cursor: pointer;
+			}
+			
+			#btn_presentacion{
+				width: 40%;
+				float: left;
+				cursor: pointer;
+			}
+			
+			#btn_boceto{
+				width: 33%;
+				float: left;
+				cursor: pointer;
+								
+			}
+			#btn_inicio:hover{color: gray;text-decoration: none; }
+			#btn_presentacion:hover{color: gray;}
+			#btn_boceto:hover{color: gray;}
+			
+		</style>
+	</head>
+	<body>
+		<div class="encabezado">
+			<div style="float:left;margin-top:15px;margin-left:42px;">
+				<span style="color:black;font-size:55px; font-family:Impact;">EcuPhoto</span>
+			</div>			
+			<div style="width:80px; float:left; margin-left:280px;">			
+				<img src="HTC-One-camara.png" alt="" width="100" height="100">
+			</div>
+		</div>
+		<div class="barra">
+			<div style="margin:auto;background-color:red; width:300px; color: white; font-weight: bolder;">
+				<div id="btn_inicio" onclick="parent.location='prueba.html';">|Inicio</div>
+				<div id="btn_presentacion" onclick="parent.location='presentacion.html';">|Presentación</div>
+				<div id="btn_boceto" onclick="parent.location='boceto.html';">|Boceto</div>
+			</div>
+		</div>
+		<div class="cuerpo">
+			
+		</div>
+	</body>	
+</html>

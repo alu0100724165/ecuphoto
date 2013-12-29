@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='icono_movil.jpg' rel='shortcut icon' type='image/jpg'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+		<title>Ecuphoto</title>
+		<link rel="stylesheet" href="estilo.css" />
+		
+		<script type="text/javascript">
+		
+			var p=0;
+			var array=[];
+			array.push("portada1.jpg");
+			array.push("portada2.jpg");
+			array.push("portada3.jpg");		
+		
+			function opacidad(){				
+				var img= document.getElementById('portada');
+				img.style.backgroundImage="url(" + array[p] +")";
+				img.style.opacity=0;
+				p++;
+				if(p>2)
+					p=0;
+						
+				aparece(img, 1);
+			}
+			
+			function aparece(img, index) {				
+				img.style.opacity= parseFloat(index/10);
+				if (index <= 10){
+					setTimeout(function () {
+						 aparece(img,index+1);
+					}, 100);				
+				}else{
+						setTimeout(function () {opacidad();}, 5000);
+				} 
+			}					
+			
+		</script>		
+		
+	</head>
+	<body onload="opacidad();">
+		<div id="encabezado">
+			<div>			
+				<div id="ecuphoto">
+						<span>ecuPhoto</span>
+				</div>			
+				<div id="imagen-enc">
+					<div>
+						<img src="HTC-One-camara.png" alt="">
+					</div>
+				</div>
+				<div id="frase">
+					<span>Una nueva forma de calcular</span>
+				</div>
+			</div>
+		</div>
+		<div class="barra">
+		<div>
+			<div>
+				<span onclick="parent.location='index.html';" class="seleccion btn">|Inicio</span>
+				<span onclick="parent.location='presentacion.html';" class="btn" >|Presentación</span>
+				<span onclick="parent.location='boceto.html';" class="btn" >|Boceto</span>
+			</div>
+		</div>
+		</div>	
+		<div id="cuerpo">			
+			<div id="portada">
+				<!--img src="portada1.jpg" alt="" style="heigth=100%; width=100%;"-->
+			</div>
+			<div class="titulo">
+				<span>¿Qué es Ecuphoto?</span>
+			</div>
+			<div class="texto">
+				<span>Ecuphoto es una aplicación para dispositivos móviles y ipads
+				 multiplataforma, cuya función principal es facilitar cálculos matemáticos complejos,
+				 	de una forma rápida y sencilla para cualquier usuario, sin perder la precisión de los resultados.
+				</span>
+			</div>
+			<div class="texto">
+				<span>La idea principal de Ecuphoto surge en la necesidad de resolver calculos matemáticos 
+				a la que muchos profesiones se someten diariamente en su trabajo, los cuales dedican un tiempo en resolverlas.
+				Con Ecuphoto en tan solo unos segundos podrás obtener el resultado que buscas.
+				</span>
+			</div>
+			<div class="texto">
+				<span>Ecuphoto funciona a partir de la cámara de tu teléfono móvil, simplemente sigue cuatro sencillos pasos,
+				sacar una foto a tu ecuación, edítala si algún número o carácter no ha sido reconocido, presiona resolver y ya
+				tienes el resultado de tu ecuación en unos segundos.
+				</span>
+			</div>
+		</div>
+		<div id="pie">
+			<div id="pie-izquierdo">
+				<span>Contactos:</span>
+				<div>
+					<span>Leandro Ponte Brunengo</span>
+					<span>Ayoze Pacheco Herrera</span>
+					<span>Abraham Barreto Luis</span>
+				</div>
+			</div>
+			<div id="pie-centro">			
+				<span> Copyrigth </span>
+			</div>
+			<div>
+				<div id="pie-derecho">
+					<span onclick="parent.location='index.html';">Inicio</span>
+					<span onclick="parent.location='presentacion.html';">Presentación</span>
+					<span onclick="parent.location='boceto.html';">Boceto</span>
+				</div>			
+			</div>
+		</div>
+	</body>	
+</html>
