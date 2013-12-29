@@ -12,8 +12,8 @@
 			var p=0;
 			var array=[];
 			array.push("portada1.jpg");
-			array.push("númerosjpg");
-			array.push("num.jpg");		
+			array.push("portada2.jpg");
+			array.push("portada3.jpg");		
 		
 			function opacidad(){				
 				var img= document.getElementById('portada');

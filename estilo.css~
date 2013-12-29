@@ -5,7 +5,7 @@ html,body{margin: 0; padding: 0;height: 100%;}
 				margin: auto;
 				width: 100%;
 				min-width: 1128px;
-				min-height: 80px;
+				min-height: 90px;
 				height: 13%;
 				text-align: left;
 			}
@@ -14,18 +14,16 @@ html,body{margin: 0; padding: 0;height: 100%;}
 			margin: auto; 
 			width: 70%;
 			height: 100%;
-			/*background-color: green;*/
 			min-width: 1128px;			
 		}	
 		
 		#ecuphoto{
 				color:white;
 				font-size:55px; 
-				font-family:Impact;		
-				
-				/*background-color: purple;*/
+				font-family:Impact;
+				margin-top: 10px;		
 				width: 50%;				
-				height: 100%;	
+				height: 90%;	
 				float: left;
 		}
 		#imagen-enc{
@@ -39,8 +37,7 @@ html,body{margin: 0; padding: 0;height: 100%;}
 			width: 120px;
 			height: 100%;
 			float: right;
-			margin-right: 10px;
-			/*background-color: green;*/		
+			margin-right: 10px;		
 		}
 	
 		#imagen-enc > div > img{
@@ -57,7 +54,6 @@ html,body{margin: 0; padding: 0;height: 100%;}
 			position: relative;
 			top: -25px;	
 		}
-		
 			.barra{
 				background-color:#0F527A;
 				min-width: 1128px;
@@ -90,7 +86,7 @@ html,body{margin: 0; padding: 0;height: 100%;}
 				width: 80%;
 				min-width: 1128px;
 				min-height: 450px;
-				height: 70%;
+				height: 77%;
 				/*min-height: 600px;*/
 			}
 		
@@ -128,7 +124,7 @@ html,body{margin: 0; padding: 0;height: 100%;}
 				color: black;
 				background-color:#F9F9F9;
 				display: inline-block;
-				padding: 5px 5px 5px 5px;
+				padding: 10px;
 							
 			}
 		
@@ -137,7 +133,7 @@ html,body{margin: 0; padding: 0;height: 100%;}
 		   #pie{
 		   	text-align: center;
 				width: 100%;
-				height:9%;
+				height:10%;
 				background-color:#EEEEEE;
 				padding-top: 10px;
 				padding-bottom: 10px;			
@@ -151,7 +147,9 @@ html,body{margin: 0; padding: 0;height: 100%;}
 			}
 	
 			#pie-derecho{
-				width:20%;
+				width:105px;
+				text-align: left;
+				padding-left: 10px;
 				margin:auto; 	
 			}
 			#pie-derecho > span{
@@ -161,21 +159,23 @@ html,body{margin: 0; padding: 0;height: 100%;}
 			}
 		
 			#pie-izquierdo{
-				text-align: left;
+				text-align: center;
 				font-family: verdana;			
 			}
 			
 			#pie-izquierdo > span{
-				margin-left: 15px;
 				color: gray;			
 			}
 		
 			#pie-izquierdo > div{ 
 				width:205px;
-				margin:auto;
-				margin-top: -5px;
+				margin: auto;
+				text-align: left;
 				color: #418CC5;
 				font-size: 13px;
+			}
+			#pie-centro{
+				text-align: center;			
 			}
 			
 			#pie-centro > span{
