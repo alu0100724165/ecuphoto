@@ -26,14 +26,23 @@
 		<div class="barra">
 		<div>
 			<div>
-				<span onclick="parent.location='index.html';" class="seleccion btn">|Inicio</span>
-				<span onclick="parent.location='presentacion.html';" class="btn" >|Presentación</span>
+				<span onclick="parent.location='index.html';" class="btn">|Inicio</span>
+				<span onclick="parent.location='presentacion.html';" class="seleccion btn" >|Presentación</span>
 				<span onclick="parent.location='boceto.html';" class="btn" >|Boceto</span>
 			</div>
 		</div>
 		</div>
 		<div id="cuerpo">
-			
+				<div id="parte-texto">
+				</div>
+				<div id="parte-video">
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/XG-1GvyGUog" frameborder="0" allowfullscreen></iframe>
+				</div>	
+				<div id="parte-texto">
+					<span>Video de presentacion de prototipo. En este video podemos apreciar el funcionamiento de la aplicación móvil. Podemos aprecias una sencilla interfaz donde el usuario interactuará comodamente.</span>
+				</div>		
+		</div>
+					
 		</div>
 		<div id="pie">
 			<div id="pie-izquierdo">
