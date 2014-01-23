@@ -36,8 +36,8 @@
 		</div>
 		</div>
 		<div id="cuerpo">
-			<div style="margin:auto; width:850px; padding:10px; background-color:#EEEEEE; height:100%; ">
-			 <embed style="height:95%;" src="Exploración y análisis de IDEAS del proyecto.pdf" width="850" ></embed>
+			<div class="pdf">
+			 	<embed style="height:95%;" src="Exploración y análisis de IDEAS del proyecto.pdf" width="850" ></embed>
 			</div>		
 		</div>
 		<div id="pie">

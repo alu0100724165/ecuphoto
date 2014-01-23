@@ -57,6 +57,7 @@ html,body{margin: 0; padding: 0;height: 100%;}
 			.barra{
 				background-color:#0F527A;
 				min-width: 1128px;
+				margin-bottom: 5px;
 			}
 		
 			.barra>div{
@@ -94,7 +95,7 @@ html,body{margin: 0; padding: 0;height: 100%;}
 				width:850px;
 				padding:10px;
 				background-color:#EEEEEE;
-				height:100%;			
+				height:95%;			
 			}
 		
 			#portada{
