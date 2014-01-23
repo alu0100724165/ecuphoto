@@ -62,18 +62,16 @@ html,body{margin: 0; padding: 0;height: 100%;}
 			.barra>div{
 				width: 70%;
 				min-width: 1128px;
-				margin: auto;
-				/*background-color: red;*/			
+				margin: auto;			
 			}
 		
 			.barra > div > div{				
 				color: white;
-				text-align: right;
+				text-align: left;
 			}
 		.btn{
 				font-family: calibri;
-				padding-left: 20px;
-				padding-right: 20px;
+				padding-right: 15px;
 				padding-top: 5px;
 				padding-bottom: 5px;
 				cursor: pointer;	
@@ -88,6 +86,15 @@ html,body{margin: 0; padding: 0;height: 100%;}
 				min-height: 450px;
 				height: 77%;
 				/*min-height: 600px;*/
+			}
+		
+
+			.pdf{
+				margin:auto; 
+				width:850px;
+				padding:10px;
+				background-color:#EEEEEE;
+				height:100%;			
 			}
 		
 			#portada{
@@ -164,7 +171,7 @@ html,body{margin: 0; padding: 0;height: 100%;}
 			}
 	
 			#pie-derecho{
-				width:105px;
+				width:50%;
 				text-align: left;
 				padding-left: 5px;
 				margin:auto; 	

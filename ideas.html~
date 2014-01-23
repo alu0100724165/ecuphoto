@@ -27,23 +27,18 @@
 		<div>
 			<div>
 				<span onclick="parent.location='index.html';" class="btn">|Inicio</span>
-				<span onclick="parent.location='ideas.html';" class="btn" >|Ideas</span>
+				<span onclick="parent.location='ideas.html';" class="seleccion btn" >|Ideas</span>
 				<span onclick="parent.location='casos.html';" class="btn" >|Casos de uso</span>
 				<span onclick="parent.location='wirehta.html';" class="btn" >|Wireframe y HTA</span>
-				<span onclick="parent.location='presentacion.html';" class="seleccion btn" >|Video</span>
+				<span onclick="parent.location='presentacion.html';" class="btn" >|Video</span>
 				<span onclick="parent.location='evaluacion.html';" class="btn" >|Evaluación</span>
 			</div>
 		</div>
 		</div>
 		<div id="cuerpo">
-				<div id="parte-video">
-					<iframe width="560" height="315" src="http://www.youtube.com/embed/XG-1GvyGUog" frameborder="0" allowfullscreen></iframe>
-				</div>	
-				<div id="parte-texto">
-					<span>Video de presentacion de prototipo. En este video podemos apreciar el funcionamiento de la aplicación móvil. Podemos aprecias una sencilla interfaz donde el usuario interactuará comodamente.</span>
-				</div>		
-		</div>
-					
+			<div style="margin:auto; width:850px; padding:10px; background-color:#EEEEEE; height:100%; ">
+			 <embed style="height:95%;" src="Exploración y análisis de IDEAS del proyecto.pdf" width="850" ></embed>
+			</div>		
 		</div>
 		<div id="pie">
 			<div id="pie-izquierdo">
@@ -60,8 +55,13 @@
 			<div>
 				<div id="pie-derecho">
 					<span onclick="parent.location='index.html';">Inicio</span>
-					<span onclick="parent.location='presentacion.html';">Presentación</span>
-					<span onclick="parent.location='boceto.html';">Boceto</span>
+					<span onclick="parent.location='ideas.html';">Ideas</span>
+					<span onclick="parent.location='casos.html';">Casos de uso</span>
+				</div>	
+				<div id="pie-derecho">
+					<span onclick="parent.location='wirehta.html';">Wireframe y hta</span>
+					<span onclick="parent.location='presentacion.html';">Video</span>
+					<span onclick="parent.location='evaluacion.html';">Evaluacion</span>
 				</div>			
 			</div>
 		</div>
